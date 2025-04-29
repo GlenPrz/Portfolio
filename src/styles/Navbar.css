@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #dec77d42;
+    overflow: hidden;
+    margin-bottom: -5.35%;
+    padding: 1em;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.logo-hero{
+    width: 50px;
+    height: 50px;
+}

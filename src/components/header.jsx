@@ -1,0 +1,26 @@
+import React from 'react';
+import { MDBBtn } from 'mdb-react-ui-kit';
+import TypewriterEffect from './TypewriterEffect'; // Import the TypewriterEffect component
+import '../styles/header.css'; // Assuming you have a CSS file for styles
+
+const HeroSection = () => {
+  return (
+    <div className="hero-section">
+      <div className="hero-content-left">
+        {/* Integrating the TypewriterEffect component here */}
+        <TypewriterEffect textArray={["Hi, I'm Glen.", "I'm a Web Developer.", "I Love to Code.", "Let's Build Something!"]} />
+        <p>I'm a Web developer</p>
+        <MDBBtn color="primary" size="lg">Get Started</MDBBtn>
+      </div>
+      <div className="hero-content-right">
+        <img src="https://via.placeholder.com/400" alt="Hero" className="hero-image" />
+      </div>
+    </div>
+  );
+};
+
+const Header = () => {
+  return <HeroSection />;
+};
+
+export default Header;
