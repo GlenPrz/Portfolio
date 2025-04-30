@@ -8,8 +8,7 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="hero-content-left">
         {/* Integrating the TypewriterEffect component here */}
-        <TypewriterEffect textArray={["Hi, I'm Glen.", "I'm a Web Developer.", "I Love to Code.", "Let's Build Something!"]} />
-        <p>I'm a Web developer</p>
+        <TypewriterEffect textArray={["Hi, I'm Glen.", "I'm a Web Developer.", "Let's bring ideas to life together!", "Contact me and let's connect!"]} />
         <MDBBtn color="primary" size="lg">Get Started</MDBBtn>
       </div>
       <div className="hero-content-right">

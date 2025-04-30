@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/typewriter.css'; // Optional: CSS for cursor
 
 const TypewriterEffect = ({ textArray, typingSpeed = 100, deletingSpeed = 50, delay = 2000 }) => {
   const [text, setText] = useState('');
