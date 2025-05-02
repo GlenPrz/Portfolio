@@ -1,0 +1,28 @@
+body {
+
+    background: linear-gradient(120deg, 
+        rgb(213, 157, 25),    
+        rgb(222, 174, 63),   /* soft peach */
+        rgb(255, 230, 154),    /* pastel yellow */
+        rgb(255, 243, 200),    /* creamy beige */
+        rgb(255, 250, 220),    /* light cream */
+        rgb(255, 230, 154), 
+        rgb(222, 174, 63)     /* off-white */
+    );
+    background-size: 400% 400%; /* Smooth background movement */
+    animation: gradientMove 8s ease infinite;
+    display: flex;
+    /* box-shadow: inset 0px -100px 30px -100px rgba(0, 0, 0, 0.461); */
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

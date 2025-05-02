@@ -1,20 +1,20 @@
 .hero-section {
     width: 100%;
     height: 650px;
-    background: linear-gradient(120deg, 
-        rgb(222, 174, 63),   /* soft peach */
-        rgb(255, 230, 154),    /* pastel yellow */
-        rgb(255, 243, 200),    /* creamy beige */
-        rgb(255, 250, 220),    /* light cream */
-        rgb(251, 248, 237)     /* off-white */
+    /* background: linear-gradient(120deg, 
+        rgb(222, 174, 63),
+        rgb(255, 230, 154),  
+        rgb(255, 243, 200),   
+        rgb(255, 250, 220),  
+        rgb(251, 248, 237)    
     );
-    background-size: 400% 400%; /* Smooth background movement */
-    animation: gradientMove 10s ease infinite;
-    display: flex;
-    box-shadow: inset 0px -100px 30px -100px rgba(0, 0, 0, 0.461);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;*/
+    display: flex; 
+    /* box-shadow: inset 0px -100px 30px -100px rgba(0, 0, 0, 0.461); */
 }
 
-@keyframes gradientMove {
+/* @keyframes gradientMove {
     0% {
         background-position: 0% 50%;
     }
@@ -24,7 +24,7 @@
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 
 .hero-content-left, .hero-content-right {
     width: 50%;
@@ -36,8 +36,8 @@
 }
 
 .typewriter {
-    font-size: 2em;
-    font-family: monospace;
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: inline-block;
     white-space: nowrap;
     text-decoration: none;

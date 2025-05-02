@@ -1,8 +1,41 @@
 .about {
-    
-    background-color: rgb(25, 29, 30);    
-    padding: 20px;
+    /* background: linear-gradient(353deg,rgba(0, 0, 0, 0.806) 5%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 0.705) 100%);    padding: 20px; */
     border-radius: 5px;
-    padding: 10em 5em;
+    padding: 10em 10em 15em 10em;
     color: white;
+    margin-top: -1em;
+    height: 860px;
+    
 }
+
+.about h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.about p {
+    font-size: 1em;
+    line-height: 1.85em;
+    margin-bottom: 1.6em;
+    text-align: justify;
+}
+
+.about-content {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 2s ease-in-out forwards;
+    z-index: 3;
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
