@@ -9,7 +9,8 @@ const HeroSection = () => {
       <div className="hero-content-left">
         {/* Integrating the TypewriterEffect component here */}
         <TypewriterEffect textArray={["Hi, I'm Glen.", "I'm a Web Developer.", "Let's bring ideas to life together!", "Contact me and let's connect!"]} />
-        <MDBBtn color="primary" size="lg">Get Started</MDBBtn>
+        <button type="button" className="btn btn-primary">Contact Me!</button>
+
       </div>
       <div className="hero-content-right">
         <img src="https://via.placeholder.com/400" alt="Hero" className="hero-image" />

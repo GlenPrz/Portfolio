@@ -1,12 +1,37 @@
 .navbar {
-    background-color: #dec77d42;
+    background-color: #dec77d2d;
     overflow: hidden;
     margin-bottom: -5.35%;
     padding: 1em;
+    position: sticky;
+    top: 0; /* Sticks to the top */
+    z-index: 1000; /* Ensures it stays above other content */
+    filter: blur(0px);
+    backdrop-filter: blur(5px);
 }
 
+
+
+.navbar.scrolled .nav-link{
+color: white;  
+}
 .navbar .nav-link {
     color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-item:hover a{
+    color: #9b853c;
+    text-decoration: none;
+}
+
+.scrolled .nav-item:hover a{
+    color: #e5be3e;
+    text-decoration: none;
+}
+
+.nav-item {
+    margin: 0 8px;
 }
 
 .logo-hero{

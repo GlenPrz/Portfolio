@@ -5,6 +5,9 @@ function cards() {
   return (
     <div>
         <div className="cards">
+
+            <h1 className='main-header'>Services</h1>
+            <h1 className='child-header'>Services</h1>
             <div className="card-container">
                 <div className="card">
                     <h2>Card 1</h2>

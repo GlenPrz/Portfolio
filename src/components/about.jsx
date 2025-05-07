@@ -8,7 +8,8 @@ function about() {
       <div className='about' style={{ position: 'relative', backgroundImage: 'url(src/assets/images/bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', }}>
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.74)', opacity: 20, filter: 'blur(5px)' }}></div>
         <div className='about-content' style={{ position: 'relative', zIndex: 1 }}>
-          <h1>About Me</h1>
+        <h1 className='main-header'>About Me</h1>
+        <h1 className='child-header'>About Me</h1>
           <p>
             I’m <strong>Glen Perez</strong>, a detail-oriented web developer with a passion for building functional, visually appealing websites and applications. A <strong>cum laude graduate in BS Information Technology (2024)</strong>, I combine technical expertise with creative problem-solving to deliver seamless digital experiences.
           </p>

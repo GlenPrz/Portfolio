@@ -4,15 +4,28 @@
     padding: 10em 10em 15em 10em;
     color: white;
     margin-top: -1em;
-    height: 860px;
+    height: 1000px;
     
 }
+.about .main-header {
+  
+  font-size: 9em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: #f8f8f81f;
+  margin-bottom: -.76em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
 
-.about h1 {
-    font-size: 4em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    color: #f8f8f8;
+.about .child-header {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
 }
 
 .about p {

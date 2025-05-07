@@ -1,13 +1,17 @@
-body {
 
+
+body {
     background: linear-gradient(120deg, 
-        rgb(213, 157, 25),    
-        rgb(222, 174, 63),   /* soft peach */
-        rgb(255, 230, 154),    /* pastel yellow */
-        rgb(255, 243, 200),    /* creamy beige */
-        rgb(255, 250, 220),    /* light cream */
-        rgb(255, 230, 154), 
-        rgb(222, 174, 63)     /* off-white */
+    rgb(255, 243, 200), 
+    rgb(255, 230, 154), 
+    rgb(227, 192, 112), 
+    rgb(218, 177, 81), 
+    rgb(206, 168, 80),
+    rgb(255, 230, 154),
+    rgb(255, 243, 200),
+    rgb(255, 250, 220),
+    rgb(255, 230, 154),
+    rgb(222, 174, 63)     /* off-white */
     );
     background-size: 400% 400%; /* Smooth background movement */
     animation: gradientMove 8s ease infinite;

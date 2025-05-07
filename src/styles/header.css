@@ -46,7 +46,7 @@
   
   .cursor {
     display: inline-block;
-    color: white;
+    color: rgba(0, 0, 0, 0.832);
     animation: blink 1s step-end infinite;
   }
   
