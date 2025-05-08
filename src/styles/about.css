@@ -5,8 +5,8 @@
     color: white;
     margin-top: -1em;
     height: 1000px;
-    
 }
+
 .about .main-header {
   
   font-size: 9em;
@@ -52,3 +52,5 @@
       transform: translateY(0);
     }
   }
+
+  

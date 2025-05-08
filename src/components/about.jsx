@@ -6,7 +6,7 @@ function about() {
   return (
     <div>
       <div className='about' style={{ position: 'relative', backgroundImage: 'url(src/assets/images/bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', }}>
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.74)', opacity: 20, filter: 'blur(5px)' }}></div>
+        <div className='blurred-bg' style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.82)', opacity: 20 }}></div>
         <div className='about-content' style={{ position: 'relative', zIndex: 1 }}>
         <h1 className='main-header'>About Me</h1>
         <h1 className='child-header'>About Me</h1>
