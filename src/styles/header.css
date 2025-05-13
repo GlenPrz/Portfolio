@@ -1,6 +1,7 @@
+/* Hero Section */
 .hero-section {
     width: 100%;
-    height: 90vh;
+    height: 91vh;
     background: linear-gradient(120deg,
     rgb(0, 0, 0),   /* pure black */
     rgb(10, 10, 10), /* deep black */
@@ -16,7 +17,8 @@
     background-size: 400% 400%; /* Smooth background movement */
     animation: gradientMove 10s ease infinite;
     display: flex;
-    /* box-shadow: inset 0px -100px 30px -100px rgba(0, 0, 0, 0.461); */
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes gradientMove {
@@ -31,8 +33,7 @@
     }
 }
 
-
-
+/* Content Sections */
 .hero-content-left, .hero-content-right {
     width: 50%;
     height: 100%;
@@ -42,53 +43,30 @@
     flex-direction: column;
 }
 
-/* .typewriter {
-    font-size: 3em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: inline-block;
-    white-space: nowrap;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 1em;
-    color: white;
-  }
-  
-  .cursor {
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.832);
-    animation: blink 1s step-end infinite;
-  }
-  
-  @keyframes blink {
-    from, to { opacity: 0 }
-    50% { opacity: 1 }
-  } */
-
-  /* Hero Section Styles */
-
-
 /* Left Content (Text Section) */
 .hero-content-left {
   flex: 1;
   padding-right: 2rem;
+  color: white;
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
 }
 
 /* Typewriter Effect */
 .typewriter {
-  text-align: left; /* Ensures the text starts from the left */
+  text-align: left;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  font-family: 'Courier New', Courier, monospace; /* Typewriter-like font */
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
-  color: white;
 }
 
 .cursor {
@@ -104,18 +82,20 @@
 
 /* Contact Me Button */
 .btn-primary {
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 3.5rem;
   font-size: 1.2rem;
-  background-color: #007bff;
-  border-color: #007bff;
-  color: white;
+  font-weight: 500;
+  background-color: #fac106;
+  border-color: #946d0c;
+  color: rgb(0, 0, 0);
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #004085;
+  background-color: #8f7009;
+  border-color: #513b04;
 }
 
 /* Right Content (Image Section) */
@@ -132,10 +112,137 @@
   border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
-  
-  .hero-title {
-    font-size: 4em;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    text-align: left;
+/* Icon Styles */
+.icon-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.icon-link {
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Floating effect for icons */
+.icon-link:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Hover Scaling */
+.icon-link:hover .icon {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Specific Icon Colors */
+.icon-link:nth-child(1) .icon {
+  color: #0A66C2; /* LinkedIn */
+}
+
+.icon-link:nth-child(2) .icon {
+  color: #333; /* GitHub */
+}
+
+.icon-link:nth-child(3) .icon {
+  color: #1877F2; /* Facebook */
+}
+
+/* Icon Floating Animation */
+.icon-link {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.icon-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.icon-container a {
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Delay each icon's animation for the wave effect */
+.icon-container a:nth-child(1) {
+  animation-delay: 0s; /* First icon starts immediately */
+}
+
+.icon-container a:nth-child(2) {
+  animation-delay: 0.3s; /* Second icon starts after 0.3s */
+}
+
+.icon-container a:nth-child(3) {
+  animation-delay: 0.6s; /* Third icon starts after 0.6s */
+}
+
+/* Hover effect to slightly scale the icon */
+.icon-container a:hover {
+  transform: scale(1.1);
+}
+
+/* Floating up and down animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* Return to original position */
+  }
+}
+
+.icons {
+  filter: grayscale(100%) brightness(0.2);
+  transition: all 0.3s ease;
+}
+
+.icon-container {
+    background: '#fff';
+    border-radius: '50%';
+    padding: '10px';
+    box-shadow: '0 2px 8px rgba(0,0,0,0.1)';
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+}
+
+/* Scale effect on hover */
+.icon-container a:hover .icons {
+  transform: scale(1.25);
+}
+
+/* Transition for icons */
+.icons {
+  transition: transform 0.5s ease;
 }

@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #c0c1c755;
+    background-color: #c0c1c791;
     overflow: hidden;
     margin-bottom: -5.35%;
     padding: 1em;
@@ -21,7 +21,7 @@ color: white;
     text-decoration: none;
 }
 .nav-item:hover a{
-    color: #9b853c;
+    color: #302503;
     text-decoration: none;
 }
 

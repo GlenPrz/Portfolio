@@ -2,6 +2,8 @@ import React from 'react';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import TypewriterEffect from './TypewriterEffect'; // Import the TypewriterEffect component
 import '../styles/header.css'; // Assuming you have a CSS file for styles
+import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
+
 
 const HeroSection = () => {
   return (
@@ -9,61 +11,36 @@ const HeroSection = () => {
       <div className="hero-content-left">
         {/* Integrating the TypewriterEffect component here */}
         <h1 className="hero-title">Hi, I'm Glen</h1>
-        <TypewriterEffect textArray={[ "I'm a Web Developer.", "Let's bring ideas to life together!", "Contact me and let's connect!"]} />
+        <TypewriterEffect textArray={[ "I'm a Developer", "I'm a Freelancer", "Let's bring ideas to life together!", "Contact me and let's connect!", ]} />
         <button type="button" className="btn btn-primary">Contact Me!</button>
         <div className="icon-container" style={{ display: 'flex', gap: '16px', marginTop: '20px' }}>
-          {/* LinkedIn */}
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              background: '#fff',
-              borderRadius: '50%',
-              padding: '10px',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            <i className="fa-brands fa-linkedin" style={{ fontSize: '20px', color: '#0A66C2' }}></i>
-          </a>
-
-          {/* GitHub */}
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              background: '#fff',
-              borderRadius: '50%',
-              padding: '10px',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            <i className="fa-brands fa-github" style={{ fontSize: '20px', color: '#333' }}></i>
-          </a>
-
           {/* Facebook */}
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/1AucbBFk8C/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
-            style={{
-              background: '#fff',
-              borderRadius: '50%',
-              padding: '10px',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
+            className='icon-container ic1'
           >
-            <i className="fa-brands fa-facebook" style={{ fontSize: '20px', color: '#1877F3' }}></i>
+            <FaFacebook className='icons' size={25} color="#1877F2" />
+          </a>
+          {/* Linkedin */}
+          <a
+            href="http://www.linkedin.com/in/glen-william-perez-098801307"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='icon-container ic2'
+          >
+            <FaLinkedin className='icons' size={25} color="#0A66C2" />
+          </a>
+
+          {/* Github */}
+          <a
+            href="https://github.com/GlenPrz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='icon-container ic3'
+          >
+            <FaGithub className='icons' size={25} color="#333" />
           </a>
         </div>
       </div>
