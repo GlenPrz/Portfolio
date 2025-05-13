@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #dec77d2d;
+    background-color: #c0c1c755;
     overflow: hidden;
     margin-bottom: -5.35%;
     padding: 1em;
@@ -16,7 +16,7 @@
 color: white;  
 }
 .navbar .nav-link {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     text-decoration: none;
 }
