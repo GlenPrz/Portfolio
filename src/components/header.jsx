@@ -45,7 +45,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-content-right">
-        <img src="https://via.placeholder.com/400" alt="Hero" className="hero-image" />
+        {/* <img src="https://via.placeholder.com/400" alt="Hero" className="hero-image" /> */}
       </div>
     </div>
   );
