@@ -1,26 +1,40 @@
-.multirow {
-    display: block;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: aqua;
-    width: 100%;
-    height: 100vh;
-    padding: 6em 0;
-}
-
+/* General row styling */
 .row {
     display: flex;
     width: 100%;
-    border: 4px solid rgb(255, 0, 0);
-    margin: 2% 0;
+    height: 550px;
+    margin-right: -2em; 
 }
 
-.row .row-cont{
+/* Row content sections */
+.row-cont-left, .row-cont-right {
     width: 50%;
-    height: 10em;
+    padding: 3em;
     
 }
 
-.row .row-cont .left{
-    background-color: red;
+/* Row1 specific styles */
+.row1 .row-cont-left {
+    background-color: #ffb700c9;
+}
+
+.row1 .row-cont-right {
+    background-color: #191200df;
+}
+
+/* Consistent styling for additional rows */
+.row2 .row-cont-left {
+    background-color: #191200df; /* Example color */
+}
+
+.row2 .row-cont-right {
+    background-color: #ffb700c9;
+}
+
+.row3 .row-cont-left {
+    background-color: #ffb700c9;
+}
+
+.row3 .row-cont-right {
+    background-color: #191200df;
 }

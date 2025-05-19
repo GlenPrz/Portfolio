@@ -16,8 +16,8 @@ function App() {
       <Header />
       <About />
       <Cards />
-      {/* <Multirow /> */}
-      <Rockets />
+      <Multirow />
+      {/* <Rockets /> */}
     </>
   );
 }
