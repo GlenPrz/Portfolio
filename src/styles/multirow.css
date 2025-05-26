@@ -1,10 +1,32 @@
+.multirow-content{
+    display:block; 
+}
+.multirow-content .main-header {
+    font-size: 10em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #ffb70044;
+    margin-bottom: -.75em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.multirow-content .child-header {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #191200c6;
+    margin-bottom: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
 /* General row styling */
 .row {
     display: flex;
     width: 100%;
     height: 550px;
-    margin-right: -2em; 
-}
+    margin: 0 auto;}
 
 /* Row content sections */
 .row-cont-left, .row-cont-right {

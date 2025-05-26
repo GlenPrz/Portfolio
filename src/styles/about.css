@@ -9,13 +9,13 @@
 
 .about .main-header {
   
-  font-size: 9em;
+  font-size: 10em;
   margin-bottom: 0.5em;
   text-align: center;
   color: #f8f8f81f;
-  margin-bottom: -.76em;
+  margin-bottom: -.74em;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .about .child-header {
