@@ -1,14 +1,14 @@
 .about {
     /* background: linear-gradient(353deg,rgba(0, 0, 0, 0.806) 5%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 0.705) 100%);    padding: 20px; */
     border-radius: 5px;
-    padding: 10em 10em 15em 10em;
+    padding: 9.5em 10em 15em 10em;
     color: white;
     margin-top: -1em;
-    height: 1000px;
+    height: 100vh;
+    z-index: 5;
 }
 
 .about .main-header {
-  
   font-size: 10em;
   margin-bottom: 0.5em;
   text-align: center;
@@ -20,7 +20,7 @@
 
 .about .child-header {
   font-size: 4em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   text-align: center;
   color: #f8f8f8;
   font-family: 'Poppins', sans-serif;

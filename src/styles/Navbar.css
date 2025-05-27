@@ -1,7 +1,12 @@
+.collapse {
+    margin-right: 3em;    
+}
+
 .navbar {
-    background-color: #c0c1c791;
+    background: #0d0a02;
+background: linear-gradient(179deg, rgb(13, 10, 2) 2%, rgba(13, 10, 2, 0.897) 21%, rgba(21, 17, 3, 0.838) 49%, rgba(21, 17, 3, 0.6) 100%);
     overflow: hidden;
-    margin-bottom: -5.35%;
+    margin-bottom: -6.4%;
     padding: 1em;
     position: sticky;
     top: 0; /* Sticks to the top */
@@ -12,6 +17,7 @@
 
 
 
+
 .navbar.scrolled .nav-link{
 color: white;  
 }
@@ -19,9 +25,11 @@ color: white;
     color: rgb(255, 255, 255);
     font-size: 18px;
     text-decoration: none;
+    font-weight: 400;
+
 }
 .nav-item:hover a{
-    color: #302503;
+    color: #0fbf96;
     text-decoration: none;
 }
 
