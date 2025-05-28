@@ -1,6 +1,6 @@
 .multirow{
-    background-color: rgba(243, 204, 77, 0.087);
-    padding-top: .7em;
+    background-color: rgba(7, 7, 6, 0.922);
+    padding-top: 1.5em;
 }
 
 .multirow-content{
@@ -10,21 +10,22 @@
     font-size: 10em;
     margin-bottom: 0.5em;
     text-align: center;
-    color: #ffb7004e;
+    color: #0fbf9622;
     margin-bottom: -.75em;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.062);
+
 }
 
 .multirow-content  .child-header {
     font-size: 4em;
     margin-bottom: 0.5em;
     text-align: center;
-    color: #191200c6;
+    color: #d2e4e0d1;
     margin-bottom: 1.4em;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-
 }
 /* General row styling */
 .row {

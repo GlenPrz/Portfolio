@@ -2,34 +2,29 @@
 .hero-section {
     width: 100%;
     height: 120vh;
-    background: linear-gradient(120deg,
-    #474747,  /* muted dark gray */
-    #1d1d1d,  /* soft dark gray */
-    #141414,  /* returning to black */
-    #0a0a0a,  /* deep black */
+background: linear-gradient(120deg, 
+   
+    #0da780,   /* blended teal */
+    #0a8566,   /* rich teal-green */
+    #09785c,   /* deeper teal */
+    #053b2e,   /* softened teal */
+    #02251c,   /* softened teal */
+    #021712,   /* smoothing back */
+    #010e0b,   /* deep green-black */
+    #000d0a,   /* blended black */
     #000000,   /* pure black */
-    #0fbf96,  /* subtle teal-green */
-    #000000,  /* pure black */
-    #0a0a0a,  /* deep black */
-    #141414,  /* slightly lighter black */
-    #1d1d1d,  /* deep gray */
-    #202020,
-    #202020,  /* muted dark gray */
-    #1d1d1d,  /* soft dark gray */
-    #141414,  /* returning to black */
-    #0a0a0a,  /* deep black */
-    #000000,   /* pure black */
-    #0fbf96,  /* subtle teal-green */
-    #000000,  /* pure black */
-    #0a0a0a,  /* deep black */
-    #141414,  /* slightly lighter black */
-    #1d1d1d,  /* deep gray */
-    #4e4e4e  
-
-    
+    #000d0a,   /* green-black mix */
+    #010b09,   /* consistent depth */
+    #010b09,   /* maintaining smoothness */
+    #01120e,   /* balanced teal */
+    #021913,   /* refined depth */
+    #043228,   /* final soft teal */
+    #087c5f,   /* return to deep teal */
+    #087c5f,   /* maintaining cohesion */
+    #01120e   /* concluding blend */
 );
     background-size: 400% 400%; /* Smooth background movement */
-    animation: gradientMove 10s ease infinite;
+    animation: gradientMove 20s ease infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +67,7 @@
   margin-bottom: 1rem;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
+  
 }
 
 /* Typewriter Effect */
@@ -80,9 +76,20 @@
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Georgia', serif;
+  /* font-family: 'Garamond', serif; */
+  /* font-family: 'Helvetica', sans-serif; */
+  /* font-family: 'Arial', sans-serif; */
+  /* font-family: 'Calibri', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Consolas', monospace; */
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
+  /* background-color: rgb(255, 255, 255);
+  color: black */
 }
 
 .cursor {
