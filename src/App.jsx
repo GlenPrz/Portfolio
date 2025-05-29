@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      {/* <Cards /> */}
+      <Cards />
       <Multirow />
       {/* <Rockets /> */}
     </>
